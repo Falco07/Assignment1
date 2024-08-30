@@ -22,14 +22,14 @@
 .responsive{
     width: 100%;
     margin: 0px auto;
-    background: green;
+    background:black;
     padding: 10px 0px;
 }
 .mainwrapper{
 display:block;
 gap: 10px;
 width: 80%;
-background: blue;
+background:white;
 margin: 0px auto;
 }
 
