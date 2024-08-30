@@ -1,0 +1,262 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+
+
+.boxArea{
+    position: fixed;
+    width: 100%;
+    background: rgb(8, 8, 8);
+}
+.wrapper{
+    width: 90%;
+    margin-inline: auto;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+font-family:cursive;
+font-size: 14px;
+width: max-content;
+color: white;
+}
+.logo span{
+    font-size: 1.2em;
+}
+nav{
+    display: flex;
+    width: 60%;
+    padding: 10px 0px;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 0px;
+    font-weight: 500;
+    text-align: center;
+}
+nav a:hover {
+    background: yellow;
+    color: black;
+    padding: 10px 0px;
+    border-radius: 3px;
+    font-weight: bold;
+} 
+.Banner {
+    margin: 0px auto;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.bannerWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline: auto;
+    justify-items: center;
+}
+.Hi{
+  font-size: 54px;
+  color: rgb(2, 2, 2);
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+padding:2em 0px;
+margin: 0px auto;
+
+}
+.Hi h1{
+    text-align: center;
+}
+.Banner h1 span {
+font-size: 1.3em;
+}
+main{
+    width: 100%;
+    margin: 0px auto;
+}
+.about-me span {
+    font-size: 1.3em;
+}
+
+.about-me  {
+    justify-content: center;
+    font-family: cursive;
+    text-align: justify;
+    width: 100%;
+    line-height: 24px;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+.aboutmewrapper{
+    width: 90%;
+    padding: 1em;
+    margin: 0px auto;
+
+}
+
+.subheader {
+    text-align: left;
+    color: rgb(30, 30, 30);
+    padding: 1em 1em;
+    background: yellow;
+    width: max-content;
+}
+
+.paragraph{
+    line-height: 24px;
+    letter-spacing: normal; 
+    margin: 0px auto;
+    width: 100%;
+    padding-top: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 1em;
+}
+li{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 1em;
+}
+.quote p{
+    line-height: 2em;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    background: skyblue;
+}
+.work {
+padding: 1em;
+font-family: cursive;
+margin: 0px auto;
+text-align: center;
+width: 90%;
+}
+.workwrapper{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:1.5em;
+}
+.workHeader{
+    background: yellow;
+    width: max-content;
+    padding: 10px;
+
+}
+.workHeader span{
+    font-size: 1.2em;
+}
+
+.work-div_wrapper{
+width: 90%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 1em;
+padding: 1em 0px;
+text-align: center;
+flex-wrap: wrap;
+
+}
+figure{
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+figure img{
+    width: 50%;
+}
+figcaption{
+    text-align: center;
+    background: skyblue;
+    color: black;
+    width: max-content;
+    justify-content: center;
+    margin: auto;
+}
+footer{
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px auto;
+    padding: 1em 0px;
+}
+.footerwrapper{
+    width:90%;
+    margin: 0px auto;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+justify-self: center;
+}
+.form{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+   
+}
+footer input{
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 200px;;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    padding:10px;
+    background: yellow;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+border: yellow;
+width: 120px;
+}
+button:hover{
+    background:yellow;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+} 
+footer a:hover{
+    color: red;
+}
+@media screen and (max-width: 500px){
+   .image{
+    display: none;
+   } 
+}
+
